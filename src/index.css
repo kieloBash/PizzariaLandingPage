@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Oswald:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1e1e1e;
+  /* font-family: "Berkshire Swash", cursive;
+  font-family: "Oswald", sans-serif; */
+}

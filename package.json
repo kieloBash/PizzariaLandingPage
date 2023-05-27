@@ -1,12 +1,12 @@
 {
-  
+  "base": "https://kieloBash.github.io/PizzariaLandingPage",
   "name": "pizza-club",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -45,5 +45,5 @@
   "bugs": {
     "url": "https://github.com/kieloBash/PizzariaLandingPage/issues"
   },
-  "homepage": "https://kieloBash.github.io/PizzariaLandingPage"
+  "homepage": "https://github.com/kieloBash/PizzariaLandingPage#readme"
 }
